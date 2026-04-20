@@ -60,7 +60,6 @@ class FormOne {
     }
 
     private fun verifySuccessMessage() {
-        val messageText = successText.text()
         successText.shouldHave(Condition.text("Форма успешно отправлена!"))
     }
 }
